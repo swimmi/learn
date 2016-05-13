@@ -1,0 +1,25 @@
+The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+
+P   A   H   N
+A P L S I I G
+Y   I   R
+
+And then read line by line: "PAHNAPLSIIGYIR"
+Write the code that will take a string and make this conversion given a number of rows:
+
+string convert(string text, int nRows);
+convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
+
+<<
+
+如下所示是"PAYPALISHIRING"这个字符串用锯齿模式在给定的行数里面写成的：（你可以使用固定的字体使这种模式更易读）
+
+PA H N
+APLSIIG
+Y I R
+
+然后，一行行读取得到：“PAHNAPLSIIGYIR”
+写一段代码，在给定行数的情况下对一个字符串进行这种转换：
+
+string convert(string text, int nRows);
+例如convert("PAYPALISHIRING", 3)应该返回“PAHNAPLSIIGYIR”。
